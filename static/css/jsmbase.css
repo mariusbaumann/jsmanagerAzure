@@ -1,0 +1,13 @@
+
+/* Helpmode Toglebutton upper right corner */
+.question {
+        color: green;
+        font-size: 200px;
+        
+}
+
+#richtable {
+        table-layout:fixed;
+        width: 98px ;
+        color: green;
+}
