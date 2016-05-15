@@ -1,0 +1,168 @@
+{% extends "base.html" %}
+
+{% block content %}
+{% load static %}
+                        
+                        
+                        <!--CONTENT CONTAINER-->
+ 			<!--===================================================-->
+ 			<div id="content-container">
+                                
+                                
+                                
+ 				<!--Page Title-->
+ 				<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+ 				<div id="page-title">
+ 					<h1 class="page-header text-overflow">To Doo</h1>
+ 				</div>
+ 				<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+ 				<!--End page title-->
+
+ 				<!--Page content-->
+ 				<!--===================================================-->
+ 				<div id="page-content">
+					
+					
+ 					<div class="row">
+ 						<div class="col-lg-12">
+					
+ 							<!--User table-->
+ 							<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+ 							<div class="panel">
+					
+ 								<div class="panel-body">
+ 									<div class="pad-btm form-inline">
+ 										<div class="row">
+ 											<div class="col-sm-6 table-toolbar-left">
+ 												<button id="demo-btn-addrow" class="btn btn-purple btn-labeled fa fa-plus">Add</button>
+ 												<div class="btn-group btn-group">
+ 													<button class="btn btn-default"><i class="fa fa-exclamation-circle"></i></button>
+ 													<button class="btn btn-default"><i class="fa fa-trash"></i></button>
+ 												</div>
+ 											</div>
+ 											<div class="col-sm-6 table-toolbar-right">
+ 												<div class="dataTables_filter">
+ 													<input id="search-todo-datatable" type="search" placeholder="Search" class="form-control input-sm" aria-controls="richtable" >
+ 												</div>
+ 												
+ 										
+ 											</div>
+ 										</div>
+ 									</div>
+ 									<div id="richtablecontainer" class="table-responsive">
+ 										<table id="richtable" class="dataTable table table-striped table-hover">
+ 											<thead>
+ 												<tr>
+ 													<th style="width:4ex">ID</th>
+ 													<th>Name</th>
+ 													<th>Balance</th>
+ 													<th class="text-center">Subscription</th>
+ 													<th class="text-right">Actions</th>
+ 												</tr>
+ 											</thead>
+ 											<tbody>
+ 												<tr>
+ 													<td><a href="#" class="btn-link">NY531</a></td>
+ 													<td>Steve N. Horton</td>
+ 													<td>$24.98</td>
+ 													<td class="text-center"><span class="label label-table label-success">Enterprise</span></td>
+ 													<td class="text-right">
+ 														<a class="btn btn-xs btn-default add-tooltip" data-toggle="tooltip" href="#" data-original-title="Edit" data-container="body"><i class="fa fa-pencil"></i></a>
+ 														<a class="btn btn-xs btn-danger add-tooltip"  data-toggle="tooltip" href="#" data-original-title="Delete" data-container="body"><i class="fa fa-times"></i></a>
+ 													</td>
+ 												</tr>
+ 												<tr>
+ 													<td><a href="#" class="btn-link">NY532</a></td>
+ 													<td>Scott S. Calabrese</td>
+ 													<td>$543.65</td>
+ 													<td class="text-center"><span class="label label-table label-info">Trial</span></td>
+ 													<td class="text-right">
+ 														<a class="btn btn-xs btn-default add-tooltip" data-toggle="tooltip" href="#" data-original-title="Edit" data-container="body"><i class="fa fa-pencil"></i></a>
+ 														<a class="btn btn-xs btn-danger add-tooltip"  data-toggle="tooltip" href="#" data-original-title="Delete" data-container="body"><i class="fa fa-times"></i></a>
+ 													</td>
+ 												</tr>
+ 												<tr>
+ 													<td><a href="#" class="btn-link">NY533</a></td>
+ 													<td>Teresa L. Doe</td>
+ 													<td>$753.95</td>
+ 													<td class="text-center"><span class="label label-table label-purple">Premium</span></td>
+ 													<td class="text-right">
+ 														<a class="btn btn-xs btn-default add-tooltip" data-toggle="tooltip" href="#" data-original-title="Edit" data-container="body"><i class="fa fa-pencil"></i></a>
+ 														<a class="btn btn-xs btn-danger add-tooltip"  data-toggle="tooltip" href="#" data-original-title="Delete" data-container="body"><i class="fa fa-times"></i></a>
+ 													</td>
+ 												</tr>
+ 												<tr>
+ 													<td><a href="#" class="btn-link">NY534</a></td>
+ 													<td>Lucy Doe</td>
+ 													<td>$234.86</td>
+ 													<td class="text-center"><span class="label label-table label-info">Trial</span></td>
+ 													<td class="text-right">
+ 														<a class="btn btn-xs btn-default add-tooltip" data-toggle="tooltip" href="#" data-original-title="Edit" data-container="body"><i class="fa fa-pencil"></i></a>
+ 														<a class="btn btn-xs btn-danger add-tooltip"  data-toggle="tooltip" href="#" data-original-title="Delete" data-container="body"><i class="fa fa-times"></i></a>
+ 													</td>
+ 												</tr>
+ 												<tr>
+ 													<td><a href="#" class="btn-link">NY535</a></td>
+ 													<td>Charles S Boyle</td>
+ 													<td>$75.32</td>
+ 													<td class="text-center"><span class="label label-table label-success">Enterprise</span></td>
+ 													<td class="text-right">
+ 														<a class="btn btn-xs btn-default add-tooltip" data-toggle="tooltip" href="#" data-original-title="Edit" data-container="body"><i class="fa fa-pencil"></i></a>
+ 														<a class="btn btn-xs btn-danger add-tooltip"  data-toggle="tooltip" href="#" data-original-title="Delete" data-container="body"><i class="fa fa-times"></i></a>
+ 													</td>
+ 												</tr>
+ 												<tr>
+ 													<td><a href="#" class="btn-link">NY536</a></td>
+ 													<td>Paul Aguilar</td>
+ 													<td>$193.64</td>
+ 													<td class="text-center"><span class="label label-table label-info">Trial</span></td>
+ 													<td class="text-right">
+ 														<a class="btn btn-xs btn-default add-tooltip" data-toggle="tooltip" href="#" data-original-title="Edit" data-container="body"><i class="fa fa-pencil"></i></a>
+ 														<a class="btn btn-xs btn-danger add-tooltip"  data-toggle="tooltip" href="#" data-original-title="Delete" data-container="body"><i class="fa fa-times"></i></a>
+ 													</td>
+ 												</tr>
+ 												<tr>
+ 													<td><a href="#" class="btn-link">NY537</a></td>
+ 													<td>Betty Murphy</td>
+ 													<td>$41.84</td>
+ 													<td class="text-center"><span class="label label-table label-purple">Premium</span></td>
+ 													<td class="text-right">
+ 														<a class="btn btn-xs btn-default add-tooltip" data-toggle="tooltip" href="#" data-original-title="Edit" data-container="body"><i class="fa fa-pencil"></i></a>
+ 														<a class="btn btn-xs btn-danger add-tooltip"  data-toggle="tooltip" href="#" data-original-title="Delete" data-container="body"><i class="fa fa-times"></i></a>
+ 													</td>
+ 												</tr>
+ 												<tr>
+ 													<td><a href="#" class="btn-link">NY538</a></td>
+ 													<td>Steve N. Horton</td>
+ 													<td>$534.77</td>
+ 													<td class="text-center"><span class="label label-table label-success">Enterprise</span></td>
+ 													<td class="text-right">
+ 														<a class="btn btn-xs btn-default add-tooltip" data-toggle="tooltip" href="#" data-original-title="Edit" data-container="body"><i class="fa fa-pencil"></i></a>
+ 														<a class="btn btn-xs btn-danger add-tooltip"  data-toggle="tooltip" href="#" data-original-title="Delete" data-container="body"><i class="fa fa-times"></i></a>
+ 													</td>
+ 												</tr>
+ 											</tbody>
+ 										</table>
+ 									</div>
+ 								</div>
+ 							</div>
+ 							<!--~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~-->
+ 							<!--End user table-->
+					
+					
+ 							
+					
+ 						</div>
+ 					</div>
+					
+					
+					
+ 				</div>
+ 				<!--===================================================-->
+ 				<!--End page content-->
+
+
+ 			</div>
+ 			<!--===================================================-->
+ 			<!--END CONTENT CONTAINER-->
+{% endblock %}
