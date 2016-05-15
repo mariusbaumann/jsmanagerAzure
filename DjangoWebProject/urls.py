@@ -38,7 +38,7 @@ urlpatterns = patterns('',
         name='logout'),
 
     url(r'^lagerplaner/', include('lagerplaner.urls', namespace="lagerplaner")),
-    url(r'^$', include('lagerplaner.urls', namespace="lagerplaner")),
+    url(r'^', include('lagerplaner.urls', namespace="lagerplaner")),
     url(r'^admin/', include(admin.site.urls)),
 
     # Uncomment the admin/doc line below to enable admin documentation:
